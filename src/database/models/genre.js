@@ -22,16 +22,8 @@ module.exports = (sequelize,dataTypes) => {
         active:{
             type:dataTypes.TINYINT(1),
             allownull:false
-        },
-        createdAt: {
-            type: dataTypes.DATE,
-            field: 'created_at'
-        },
-    
-        updatedAt: {
-            type: dataTypes.DATE,
-            field: 'updated_at'
         }
+    
     };
     const config={
         tableName: "genres",

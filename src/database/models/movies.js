@@ -28,7 +28,7 @@ module.exports = (sequelize,DataTypes) => {
             allownull:true
         },
         length: {
-            type: DataTypes.INTEGER,
+            type:DataTypes.INTEGER,
             unsigne:true
         },
         genre_id: {
@@ -43,7 +43,7 @@ module.exports = (sequelize,DataTypes) => {
         updatedAt: {
             type: DataTypes.DATE,
             field: 'updated_at'
-        }
+        }
         
     };
     const config={
